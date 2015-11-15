@@ -7,6 +7,7 @@ pers2=Person('Второй')
 round=0
 while pers1.h or pers2.h !=0:
     round+=1
+    print('')
     print(str(round) + ' раунд.')
     print('атакует '+ pers1.name)
     pers2.dam(pers1.shoot())
